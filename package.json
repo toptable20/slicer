@@ -1,0 +1,29 @@
+{
+  "name": "toptable-slicer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -w index.js -w TextMaker.js --inspect=0.0.0.0",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cura-wasm": "^1.5.2",
+    "cura-wasm-definitions": "^1.5.1",
+    "dotenv": "^16.0.3",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "mysql2": "^2.3.3",
+    "opentype.js": "^1.3.4",
+    "sequelize": "^6.28.0",
+    "three": "^0.108.0",
+    "threejs-export-stl": "^0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
